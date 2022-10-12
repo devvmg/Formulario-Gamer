@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* { margin: 0; padding: 0;}
+html , body
+{
+    background-color: #373737;
+    background-repeat: no-repeat;
+    font-family: 'Secular One', sans-serif;
+    height: 100%;
+    max-height: 100%;
+    background-size: contain;
+}
+
+::-webkit-scrollbar{width: 17px;}
+::-webkit-scrollbar-thumb {background-color: #373737; border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover {background-color: #535353;}
+::-webkit-scrollbar-track {background-color: aliceblue;}
+
+/* ---------------- FORMULARIO --------------- */
+
+.tabelaListagem h1
+{
+    color: aliceblue;
+    font-family: 'Secular One', sans-serif;
+    margin: 0 0 20px 0;
+    
+}
+
+/* =-=-= Caixa do Formulario =-=-=*/
+.divFormulario {margin: 0 auto; /**/ max-width: 500px;}
+.formulario
+{
+    padding: 30px;
+    background-color: #ececec;
+    height: 600px;
+    border-radius: 5%;
+}
+
+/* =-=-= Título =-=-=*/
+.formulario > form > div h2 {text-align: center; /**/ margin: 0 0 15px 0;}
+
+/* =-=-= Campos =-=-=*/
+.formulario > form > .formCampos 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+}
+
+/* =-=-= Campos - Labels =-=-=*/
+.formulario > form > .formCampos > label p {text-align: left;}
+
+/* =-=-= Campos - Inputs e Selects =-=-=*/
+.formulario > form > .formCampos input , select , label {height: 25px; /**/ width: 250px;}
+.formulario > form > .formCampos input , select
+{
+    border-radius: 3px;
+    background: rgb(208, 212, 215);
+    border-style: none;
+    border-bottom: solid 1px #920092;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(107, 110, 112);
+    text-align: center;
+}
+.formulario > form > .formCampos input:focus
+{
+    outline: none;
+    background-color: rgb(209, 216, 222);
+    transition: ease-in-out 0.5s;
+    border-radius: 5px;
+    border-bottom: solid 3px #b400b4;
+}
+
+/* =-=-= Campos - Botão =-=-=*/
+.formCamposBotoes 
+{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.botaoForm 
+{
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    width: 135px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 20px 5px 0 5px;
+    cursor: pointer;
+
+    background-color: #8bff6e; 
+    animation: pulseI 1s infinite alternate;
+    color: #b400b4;
+    transition: ease-in-out 0.3s;
+}
+
+.botaoForm:hover 
+{
+    background-color: #FF00FF;
+    color: #8bff6e;
+    transition: ease-in-out 0.3s; 
+    font-size: 14px;
+    filter: drop-shadow(1px 1px 10px #FF00FF);
+}
+
+/* =-=-= Logo e Nome =-=-=*/
+.creditos 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 10px 0;
+}
+img 
+{
+    width: 90px;
+    animation: float 2s infinite alternate;
+/*  animation: piscaNeon 2s infinite alternate; */
+}
+@keyframes float 
+{
+    0%{transform: translateY(25px);}
+    0%{transform: translateY(-25px);}
+}
+.sombraCredito 
+{
+    background-color: black;
+    height: 5px;
+    width: 75px;
+    border-radius: 50%;
+    animation: sombra 2s infinite alternate;
+}
+@keyframes sombra 
+{
+    0%{width: 35px; opacity: 0.1;}
+    100%{width: 75px; opacity: 0.3;}
+}
+
+/* @keyframes piscaNeon
+{
+      0%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s; transform: translateY(25px);}
+      5%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     10%{filter: drop-shadow(2px 2px 8px #FF00FF); transition: 0.2s;}
+     15%{filter: drop-shadow(2px 2px 6px #FF00FF); transition: 0.2s;}
+     20%{filter: drop-shadow(2px 2px 3px #FF00FF); transition: 0.2s;}
+     25%{filter: drop-shadow(2px 2px 3px #FF00FF); transition: 0.2s;}
+     30%{filter: drop-shadow(2px 2px 3px #FF00FF); transition: 0.2s;}
+     35%{filter: drop-shadow(2px 2px 3px #FF00FF); transition: 0.2s;}
+     40%{filter: drop-shadow(2px 2px 5px #FF00FF); transition: 0.2s;}
+     45%{filter: drop-shadow(2px 2px 7px #FF00FF); transition: 0.2s;}
+     50%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     55%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     60%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     65%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     70%{filter: drop-shadow(2px 2px 8px #FF00FF); transition: 0.2s;}
+     75%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     80%{filter: drop-shadow(2px 2px 7px #FF00FF); transition: 0.2s;}
+     85%{filter: drop-shadow(2px 2px 7px #FF00FF); transition: 0.2s;}
+     90%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+     95%{filter: drop-shadow(2px 2px 10px #FF00FF); transition: 0.2s;}
+    100%{filter: drop-shadow(2px 2px 8px #FF00FF); transition: 0.2s; transform: translateY(-25px);}
+} */
+
+/* ---------------- PÁGINA SALVAR-FORM --------------- */
+
+/* =-=-= DIV PRINCIPAL =-=-=*/
+.divVoltar 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+/* =-=-= Página Salvar - Texto =-=-=*/
+.divVoltar > div p {text-align: center; /**/ text-transform: uppercase; /**/ color: aliceblue;}
+
+/* ---------------- PÁGINA LISTAGEM --------------- */
+
+.tabelaListagem h1
+{
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #FFFFFF;
+}
+.tabelaListagem table
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.tabelaListagem > table thead , tbody{display: block;}
+.tabelaListagem > table tbody{overflow-y: scroll; height: 500px;}
+.tabelaListagem > table > thead > tr th 
+{
+    width: 130px;
+    border-bottom: solid 1px #133959;
+    border-right: dashed 1px #133959;
+}
+.idcad {width: 50px; border-left: dashed 1px #133959;}
+.email {width: 225px; max-width: 225px; overflow-x: hidden;}
+.nick {width: 132px; max-width: 132px; overflow-x: hidden;}
+.jogo {width: 120px;}
+.estilo {width: 132px;}
+.console {width: 135px;}
+.plataforma {width: 150px; max-width: 150px;}
+
+.tabelaListagem > table > tbody > tr td 
+{
+    text-align: center;
+    border-right: dashed 1px #133959;
+}
