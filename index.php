@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/png" href="media/logoAss.png">
-        <link rel="shortcut icon" href="media/logoAss.png" type="image/icon"/>
+		<link rel="icon" type="image/png" href="logoAss.png">
+        <link rel="shortcut icon" href="logoAss.png" type="image/icon"/>
 
 		<title>Piri Games</title>
 	</head>
