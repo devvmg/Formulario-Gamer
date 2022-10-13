@@ -90,7 +90,7 @@
 
 		<!-- =-=-=-=-=-= LOGO E CRÉDITOS =-=-=-=-=-= -->
 	<div class="creditos">	
-		<img src="media/logoAss.png">
+		<img src="logoAss.png">
 		<div class="sombraCredito"></div>
 	</div><!--creditos-->
 </div><!--divFormulario-->
