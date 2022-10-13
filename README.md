@@ -6,9 +6,9 @@
 
 ![Badge](https://img.shields.io/badge/Banco-PostgreSQL-%237159c1?style=for-the-badge&logo=postgresql)
 
-![Badge](https://img.shields.io/badge/Estilo-CSS-%237159c1?style=for-the-badge&logo=css3)
-
 ![Badge](https://img.shields.io/badge/Estrutura-HTML-%237159c1?style=for-the-badge&logo=html5)
+
+![Badge](https://img.shields.io/badge/Estilo-CSS-%237159c1?style=for-the-badge&logo=css3)
 
 <h2>➛ Explicação do programa:</h2>
 <p>
