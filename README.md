@@ -28,7 +28,7 @@
   - [x] Cadastre a senha do PostgreSQL como 'postgres', caso queira outra senha terá que alterar a senha que está no código na página 'config.php', linha 07;
   - [x] Crie uma Database com o nome 'Portfolio', clique com o botão direito, vá em  'Query Tool' e copie o código que está dentro do 'BDgames.sql'.
   - [ ] PRONTO!
-
+ 
 <hr>
 <img align="center" height="480em" src="https://github.com/PiriDev/Formulario-Gamer/blob/PiriProjects/FormsGamers.png">
 <hr>
