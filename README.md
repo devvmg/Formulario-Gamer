@@ -1,8 +1,4 @@
 <h1 align="center">👾 Formulário Gamer 👾</h1>
-<p align="center">Acesse meu site e entre em contato comigo!</p>
-<p align="center">http://devvini.com/</p>
-
-<h1 align="center"><img alt="piri" title="Feito por VMG" src="https://devvini.com/media/logoAss.png" style="width:50px;"/></h1>
 
 <h2>➛ Este programa utiliza as seguintes tecnologias:</h2>
 
@@ -34,3 +30,7 @@
   - [ ] PRONTO!
 
 <hr>
+<p align="center">Acesse meu site e entre em contato comigo!</p>
+<p align="center">http://devvini.com/</p>
+
+<h1 align="center"><img alt="piri" title="Feito por VMG" src="https://devvini.com/media/logoAss.png" style="width:50px;"/></h1>
