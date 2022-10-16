@@ -1,4 +1,4 @@
-<h1 align="center">👾 Formulário Gamer 👾</h1>
+<h1 align="center">👾 Formulário Gamer 👾</h1> 
 
 <h2>➛ Este programa utiliza as seguintes tecnologias:</h2>
 
